@@ -27,5 +27,5 @@ services:
       - 80:80/tcp
       - 443:443/tcp
     volumes:
-      - ${CACHE_ROOT}/cache:/mnt/e/steamcache
-      - ${CACHE_ROOT}/logs:/mnt/e/steamcache
+      - ${CACHE_ROOT}/mnt/e/steamcache:/data/cache
+      - ${CACHE_ROOT}/mnt/e/steamcache:/data/logs
